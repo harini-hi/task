@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+h4{
+    padding-top: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+h1{
+    font-family: "Ubuntu", sans-serif;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    
+}
+.gallery-img{
+    display: block;
+}
+.gallery{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 220px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;     
+}
+h2{
+    margin-top: 190px;
+    margin-left: 20px;
+}
+div#gallery-1{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)), url(image-1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+div#gallery-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)), url(image-2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+div#gallery-3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)), url(image-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+div#gallery-4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.24)), url(image-4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
